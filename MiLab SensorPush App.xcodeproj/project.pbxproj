@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BE0403006BDCCB40729983E /* Pods_MiLab_SensorPush_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 165A9B08C1A6600B1B921C4A /* Pods_MiLab_SensorPush_App.framework */; };
+		E8613DD12A39081500ED94AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8613DD02A39081500ED94AB /* AppDelegate.swift */; };
+		E8613DD32A39081500ED94AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8613DD22A39081500ED94AB /* SceneDelegate.swift */; };
+		E8613DD52A39081500ED94AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8613DD42A39081500ED94AB /* ViewController.swift */; };
+		E8613DD82A39081500ED94AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8613DD62A39081500ED94AB /* Main.storyboard */; };
+		E8613DDA2A39081500ED94AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8613DD92A39081500ED94AB /* Assets.xcassets */; };
+		E8613DDD2A39081500ED94AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8613DDB2A39081500ED94AB /* LaunchScreen.storyboard */; };
+		E8613DE62A39164500ED94AB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8613DE52A39164500ED94AB /* CoreBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		165A9B08C1A6600B1B921C4A /* Pods_MiLab_SensorPush_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiLab_SensorPush_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A4C0DB5FC8366627E5C16B5 /* Pods-MiLab SensorPush App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiLab SensorPush App.release.xcconfig"; path = "Target Support Files/Pods-MiLab SensorPush App/Pods-MiLab SensorPush App.release.xcconfig"; sourceTree = "<group>"; };
+		AEDFC1543378E9DF3D9BDDC7 /* Pods-MiLab SensorPush App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiLab SensorPush App.debug.xcconfig"; path = "Target Support Files/Pods-MiLab SensorPush App/Pods-MiLab SensorPush App.debug.xcconfig"; sourceTree = "<group>"; };
+		E8613DCD2A39081500ED94AB /* MiLab SensorPush App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiLab SensorPush App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8613DD02A39081500ED94AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8613DD22A39081500ED94AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E8613DD42A39081500ED94AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8613DD72A39081500ED94AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8613DD92A39081500ED94AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8613DDC2A39081500ED94AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8613DDE2A39081500ED94AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8613DE52A39164500ED94AB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8613DCA2A39081500ED94AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8613DE62A39164500ED94AB /* CoreBluetooth.framework in Frameworks */,
+				7BE0403006BDCCB40729983E /* Pods_MiLab_SensorPush_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE4584DDB6DFFF7457233BBB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEDFC1543378E9DF3D9BDDC7 /* Pods-MiLab SensorPush App.debug.xcconfig */,
+				5A4C0DB5FC8366627E5C16B5 /* Pods-MiLab SensorPush App.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8613DC42A39081500ED94AB = {
+			isa = PBXGroup;
+			children = (
+				E8613DCF2A39081500ED94AB /* MiLab SensorPush App */,
+				E8613DCE2A39081500ED94AB /* Products */,
+				E8613DE42A39164400ED94AB /* Frameworks */,
+				BE4584DDB6DFFF7457233BBB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E8613DCE2A39081500ED94AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8613DCD2A39081500ED94AB /* MiLab SensorPush App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8613DCF2A39081500ED94AB /* MiLab SensorPush App */ = {
+			isa = PBXGroup;
+			children = (
+				E8613DD02A39081500ED94AB /* AppDelegate.swift */,
+				E8613DD22A39081500ED94AB /* SceneDelegate.swift */,
+				E8613DD42A39081500ED94AB /* ViewController.swift */,
+				E8613DD62A39081500ED94AB /* Main.storyboard */,
+				E8613DD92A39081500ED94AB /* Assets.xcassets */,
+				E8613DDB2A39081500ED94AB /* LaunchScreen.storyboard */,
+				E8613DDE2A39081500ED94AB /* Info.plist */,
+			);
+			path = "MiLab SensorPush App";
+			sourceTree = "<group>";
+		};
+		E8613DE42A39164400ED94AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8613DE52A39164500ED94AB /* CoreBluetooth.framework */,
+				165A9B08C1A6600B1B921C4A /* Pods_MiLab_SensorPush_App.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8613DCC2A39081500ED94AB /* MiLab SensorPush App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8613DE12A39081500ED94AB /* Build configuration list for PBXNativeTarget "MiLab SensorPush App" */;
+			buildPhases = (
+				F60426D4F5EFA1E956364A82 /* [CP] Check Pods Manifest.lock */,
+				E8613DC92A39081500ED94AB /* Sources */,
+				E8613DCA2A39081500ED94AB /* Frameworks */,
+				E8613DCB2A39081500ED94AB /* Resources */,
+				3E9EA8702E9FC17D103AB655 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MiLab SensorPush App";
+			productName = "MiLab SensorPush App";
+			productReference = E8613DCD2A39081500ED94AB /* MiLab SensorPush App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8613DC52A39081500ED94AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E8613DCC2A39081500ED94AB = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E8613DC82A39081500ED94AB /* Build configuration list for PBXProject "MiLab SensorPush App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8613DC42A39081500ED94AB;
+			productRefGroup = E8613DCE2A39081500ED94AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8613DCC2A39081500ED94AB /* MiLab SensorPush App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8613DCB2A39081500ED94AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8613DDD2A39081500ED94AB /* LaunchScreen.storyboard in Resources */,
+				E8613DDA2A39081500ED94AB /* Assets.xcassets in Resources */,
+				E8613DD82A39081500ED94AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E9EA8702E9FC17D103AB655 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiLab SensorPush App/Pods-MiLab SensorPush App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MiLab SensorPush App/Pods-MiLab SensorPush App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MiLab SensorPush App/Pods-MiLab SensorPush App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60426D4F5EFA1E956364A82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiLab SensorPush App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8613DC92A39081500ED94AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8613DD52A39081500ED94AB /* ViewController.swift in Sources */,
+				E8613DD12A39081500ED94AB /* AppDelegate.swift in Sources */,
+				E8613DD32A39081500ED94AB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8613DD62A39081500ED94AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8613DD72A39081500ED94AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8613DDB2A39081500ED94AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8613DDC2A39081500ED94AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8613DDF2A39081500ED94AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8613DE02A39081500ED94AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8613DE22A39081500ED94AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEDFC1543378E9DF3D9BDDC7 /* Pods-MiLab SensorPush App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiLab SensorPush App/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = APPL;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MiLab.Swift-LightBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8613DE32A39081500ED94AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4C0DB5FC8366627E5C16B5 /* Pods-MiLab SensorPush App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6B7NNPP56Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MiLab SensorPush App/Info.plist";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = APPL;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MiLab.Swift-LightBlue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8613DC82A39081500ED94AB /* Build configuration list for PBXProject "MiLab SensorPush App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8613DDF2A39081500ED94AB /* Debug */,
+				E8613DE02A39081500ED94AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8613DE12A39081500ED94AB /* Build configuration list for PBXNativeTarget "MiLab SensorPush App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8613DE22A39081500ED94AB /* Debug */,
+				E8613DE32A39081500ED94AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8613DC52A39081500ED94AB /* Project object */;
+}
